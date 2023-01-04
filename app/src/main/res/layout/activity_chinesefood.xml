@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chinesefood">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logoF"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="57dp">
+
+        <ImageView
+            android:id="@+id/logoIv"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:src="@drawable/logo">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/titleC"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="90dp"
+        app:cardCornerRadius="57dp">
+
+        <TextView
+            android:id="@+id/tTitle"
+            android:layout_width="200dp"
+            android:layout_height="62dp"
+            android:text="FOODREV"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textSize="38sp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/titleC"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu7">
+        </ImageView>
+        <TextView
+            android:id="@+id/chineseFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/chinesefood"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/ffText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose The Resturant..."
+        android:layout_below="@+id/menu"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ffText"
+        android:layout_marginTop="20dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

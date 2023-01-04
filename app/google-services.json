@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826486393796",
+    "project_id": "food-rev",
+    "storage_bucket": "food-rev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826486393796:android:543eac7a88ef273ccdf291",
+        "android_client_info": {
+          "package_name": "com.example.foodrev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826486393796-vfpk9e220p0lurpm5tjou29ifeb7q36f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiLliklqq7f8GJ6XaL-HDIEsQOhiT8iBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826486393796-vfpk9e220p0lurpm5tjou29ifeb7q36f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

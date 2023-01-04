@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="30dp">
+                <TextView
+                    android:id="@+id/comText"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="The Food Was Good..."
+                    android:textSize="24sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="280dp"
+                    android:layout_marginTop="70dp"
+                    android:text="name"
+                    android:textSize="18sp">
+                </TextView>
+        </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

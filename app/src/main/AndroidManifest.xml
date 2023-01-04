@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodRev">
+        <activity
+            android:name=".Addcomment"
+            android:exported="false" />
+        <activity
+            android:name=".Logout"
+            android:exported="false" />
+        <activity
+            android:name=".TehzeebReview"
+            android:exported="false" />
+        <activity
+            android:name=".ThaiFood"
+            android:exported="false" />
+        <activity
+            android:name=".Bakery"
+            android:exported="false" />
+        <activity
+            android:name=".ItalianFood"
+            android:exported="false" />
+        <activity
+            android:name=".TurkishFood"
+            android:exported="false" />
+        <activity
+            android:name=".Chinesefood"
+            android:exported="false" />
+        <activity
+            android:name=".Icecream"
+            android:exported="false" />
+        <activity
+            android:name=".DesiFood"
+            android:exported="false" />
+        <activity
+            android:name=".SeaFood"
+            android:exported="false" />
+        <activity
+            android:name=".FastFood"
+            android:exported="false" />
+        <activity
+            android:name=".Forget"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

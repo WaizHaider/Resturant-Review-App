@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Forget">
+    <TextView
+        android:id="@+id/forgetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgetPass"
+        android:textSize="33sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="40dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sPara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sPara"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="40dp">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tvGe"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="230dp"
+        app:cardCornerRadius="62dp">
+
+        <EditText
+            android:id="@+id/gEmail"
+            android:layout_width="240dp"
+            android:layout_height="57dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/gEmail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:autofillHints="">
+
+        </EditText>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/sBtn"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/sBtn">
+
+    </Button>
+
+    <Button
+        android:id="@+id/backLogin"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="onClick"
+        android:text="@string/back_to_login">
+
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_marginTop="450dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
